@@ -1,0 +1,93 @@
+# Common API paths wordlist — safe for learning / CTF use
+# apitool fuzz -u https://target.example.com -w wordlists/common_api_paths.txt
+
+# ── Auth ──────────────────────────────────────────────────────────────────────
+api/v1/auth/login
+api/v1/auth/logout
+api/v1/auth/refresh
+api/v1/auth/register
+api/v1/auth/token
+api/v1/auth/forgot-password
+api/v1/auth/reset-password
+auth/login
+auth/logout
+login
+logout
+token
+refresh
+
+# ── Users ─────────────────────────────────────────────────────────────────────
+api/v1/users
+api/v1/users/me
+api/v1/users/profile
+api/v1/user
+users
+me
+profile
+account
+accounts
+
+# ── Admin ─────────────────────────────────────────────────────────────────────
+admin
+admin/login
+admin/dashboard
+api/v1/admin
+api/admin
+dashboard
+
+# ── REST conventions ──────────────────────────────────────────────────────────
+api
+api/v1
+api/v2
+api/v3
+api/health
+api/status
+api/ping
+health
+status
+ping
+version
+info
+
+# ── Data ──────────────────────────────────────────────────────────────────────
+api/v1/posts
+api/v1/comments
+api/v1/products
+api/v1/orders
+api/v1/items
+api/v1/events
+api/v1/reports
+posts
+comments
+products
+orders
+
+# ── Docs / debug ──────────────────────────────────────────────────────────────
+docs
+swagger
+swagger.json
+swagger.yaml
+openapi.json
+openapi.yaml
+api-docs
+redoc
+graphql
+graphiql
+
+# ── Files / uploads ───────────────────────────────────────────────────────────
+upload
+uploads
+files
+static
+assets
+media
+
+# ── Metrics / monitoring ──────────────────────────────────────────────────────
+metrics
+actuator
+actuator/health
+actuator/info
+actuator/env
+debug
+trace
+logs
