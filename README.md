@@ -7,7 +7,7 @@ Built for cybersecurity students and SOC analysts.
 ## 📸 Preview
 
 <!-- Replace the path below with your actual screenshot once uploaded to your repo -->
-![apitool CLI preview](./screenshots/preview.png.png)
+![apitool CLI preview](./screenshots/preview.png)
 
 > *The tool running in terminal — showing all 4 available subcommands.*
 
