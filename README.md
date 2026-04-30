@@ -1,17 +1,17 @@
-# ⚡ apitool
+# apitool
 
 A modular CLI for **API testing** and **interactive learning** — REST, SOAR, and Graph APIs.
 Built for cybersecurity students and SOC analysts.
 
 ---
-## 📸 Preview
+## Preview
 
 ![apitool CLI preview](./screenshot/preview.png)
 
 
 ---
 
-## 📦 Installation
+## Installation
 
 ```bash
 # 1. Clone / download the project
@@ -30,7 +30,7 @@ chmod +x apitool.py
 
 ---
 
-## 🚀 Usage
+## Usage
 
 Run with:
 
@@ -46,7 +46,7 @@ Or, after `chmod +x`:
 
 ---
 
-## 🔧 Subcommands
+## Subcommands
 
 ### `test` — Send an HTTP request
 
@@ -142,7 +142,7 @@ History is stored at `~/.apitool_history.json`.
 
 ---
 
-## 🗂️ Project Structure
+## Project Structure
 
 ```
 apitool/
@@ -162,7 +162,7 @@ apitool/
 
 ---
 
-## 🔐 Security Awareness
+## Security Awareness
 
 `apitool` includes passive checks that **warn** you about:
 
@@ -176,7 +176,7 @@ It never exploits — it educates.
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Library | Purpose                       |
 |---------|-------------------------------|
@@ -188,7 +188,7 @@ Python 3.10+ recommended.
 
 ---
 
-## 📋 Quick Examples
+## Quick Examples
 
 ```bash
 # 1. Test a public API
